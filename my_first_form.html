@@ -26,27 +26,75 @@
 <br>
 <div>
 
-<input type="text" id="username" name="username" placeholder="Enter your username">
+	<input type="text" id="username" name="username" placeholder="Enter your username">
 
-<button type="submit">Login</button>
+	<button type="submit">Login</button>
 </div>
 
 <br>
 <div>
 
 <div>
-        <label for="username">User Login</label>
-        <input id="username" name="username" type="text">
+    <label for="username">User Login</label>
+    <input id="username" name="username" type="text">
 </div>
 
 <br>
 
 <div>
-        <label for="username">Compose Email</label>
+   	<label for="username">Compose Email</label>
 
-<textarea id="email_body" name="email_body">Content Here</textarea>
+	<textarea id="email_body" name="email_body">Content Here</textarea>
+
+	<input type="submit">
+
+	<input type="checkbox" id="mailing_list" name="mailing_list" value="yes">
+	<label for="mailing_list">Want to save a copy to their sent folder?</label>
 
 </div>
+
+<div>
+
+	<p>What is your favorite food?</p>
+		<label>
+    	<input type="radio" name="q1" value="Pizza">
+    	Pizza
+		</label>
+		<label>
+    	<input type="radio" name="q1" value="Hamburgers">
+    	Hamburgers
+		</label>
+		<label>
+    	<input type="radio" name="q1" value="Ice Cream">
+    	Ice Cream
+		</label>
+		<label>
+    	<input type="radio" name="q1" value="Steak">
+    	Steak
+		</label>
+		<input type="submit">
+
+</div>
+<div>
+
+		<p>What activities do you like?</p>
+		<label><input type="checkbox" id="os1" name="os[]" value="Hiking"> Hiking</label>
+		<label><input type="checkbox" id="os2" name="os[]" value="Swimming"> Swimming</label>
+		<label><input type="checkbox" id="os3" name="os[]" value="Working Out"> Working Out</label>
+		<input type="submit">
+
+</div>
+
+		<h3> Select Testing </h3>
+		<label for="transmission">Do you eat food: </label>
+		<select id="transmission" name="transmission">
+    	<option value="1">Yes</option>
+    	<option value="2">No</option>
+		</select>
+		<input type="submit">
+		
+</div>
+
 
 </body>
 </html>
