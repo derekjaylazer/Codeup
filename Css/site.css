@@ -10,6 +10,16 @@
     clear:both;
 
 }
+
+h1 {
+  text-decoration: underline;
+  color: green;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
 body {
 color: red;
 background-color: #DBF9FC;
@@ -43,3 +53,4 @@ a:link {
 
 a:hover {
   color: hotpink;
+
