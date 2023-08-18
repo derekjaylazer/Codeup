@@ -10,3 +10,36 @@
     clear:both;
 
 }
+body {
+color: red;
+background-color: #DBF9FC;
+background-image: url(https://img.redbull.com/images/c_crop,x_0,y_0,h_2203,w_4896/c_fill,w_1680,h_756/q_auto,f_auto/redbullcom/2018/11/27/325118c5-1118-4dfb-82b5-4e5958acaa40/red-bull-zera-o-pico-2018-guaratinga-brazil); 
+font-family: Helvetica, Arial, Sans-Serif;
+}
+
+img {  
+max-width: 100%;  
+height: auto;  
+}  
+
+ol {
+    list-style: upper-alpha;
+}
+ul {
+    list-style: square;
+}
+
+td {
+	font-weight: bold;
+}
+
+tr {
+	font-weight: bold;
+}
+
+a:link {
+  color: mediumseagreen;
+}
+
+a:hover {
+  color: hotpink;
