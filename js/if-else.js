@@ -14,6 +14,22 @@ var favorite = 'red'; // TODO: change this to your favorite color from the list
 //       Example: Blue is the color of the sky.
 
 // TODO: Have a final else that will catch indigo and violet.
+
+if (color == 'red') {
+	console.log("cherries are red");
+} else if (color == 'orange'){
+	console.log("mango insides are orange");
+} else if (color == 'yellow'){
+	console.log("bananas are yellow");
+} else if (color == 'green'){
+	console.log("leaves are green");
+} else if (color == 'blue'){
+	console.log("blueberries are blue");
+} else {
+	console.log("i do not know anything by that color.");
+}
+
+(color === favorite) ? console.log(color + " is my favorite color!") : console.log(color + " is not my favorite color!");
 // TODO: In the else, log: I do not know anything by that color.
 
 // TODO: Using the ternary operator, conditionally log a statement that
